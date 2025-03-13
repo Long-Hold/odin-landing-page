@@ -14,11 +14,13 @@
                 <h2 class="header-logo">Header Logo</h2>
                 
                 <!-- List of header links, related -->
-                 <ul class="header-links">
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                 </ul>
+                 <nav class="header-links">
+                    <ul>
+                        <li><a href="#">header link one</a></li>
+                        <li><a href="#">header link two</a></li>
+                        <li><a href="#">header link three</a></li>
+                    </ul>
+                 </nav>
             </header>
 
             <!-- A separate container from header, but subcontainer of header-hero container-->
@@ -35,7 +37,7 @@
 
                 <!-- Image subcontainer -->
                 <div class="image-container">
-                    this is a placeholder for an image
+                    <img href="#" alt="this is a placeholder for an image">
                 </div>
             </section>
         </div>
@@ -48,40 +50,41 @@
              <ul class="corale-images">
                 <li>
                     <div class="illustration"></div>
-                    <sub>this is some subtext under an illustration or image</sub>
+                    <p>this is some subtext under an illustration or image</p>
                 </li>
                 <li>
                     <div class="illustration"></div>
-                    <sub>this is some subtext under an illustration or image</sub>
+                    <p>this is some subtext under an illustration or image</p>
                 </li>
                 <li>
                     <div class="illustration"></div>
-                    <sub>this is some subtext under an illustration or image</sub>
+                    <p>this is some subtext under an illustration or image</p>
                 </li>
                 <li>
                     <div class="illustration"></div>
-                    <sub>this is some subtext under an illustration or image</sub>
+                    <p>this is some subtext under an illustration or image</p>
                 </li>
              </ul>
         </section>
 
         <!-- Flexbox container for quote section, located above footer -->
         <section class="quote-section-container">
-            <p class="quote"><em>This is an inspiring quote, or a testimonial from a customer.
+            <blockquote>
+                <em>This is an inspiring quote, or a testimonial from a customer.
                 Maybe it's just filling up space, or maybe people will actually read it.
-                Who knows? All I know is that it looks nice.
-            </em></p>
-            <p class="quote-signature"><strong>-Thor, God of Thunder</strong></p>
+                Who knows? All I know is that it looks nice.</em>
+                <cite><strong>-Thor, God of Thunder</strong></cite>
+            </blockquote>
         </section>
 
         <!-- Sign up banner poisitioned above footer -->
         <!-- Should consist of a white container, with a smaller blue banner inside-->
         <section class="action-container">
-            <div class="signup-bar">
+            <div class="signup-quote">
                 <h3><strong>Call to action! It's time!</strong></h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
-                <button type="button">Sign up</button>
             </div>
+            <button type="button">Sign up</button>
         </section>
 
         <!-- Standard footer with copyright information -->
