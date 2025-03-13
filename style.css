@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* debuggin */
+    border: red solid 1px;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
