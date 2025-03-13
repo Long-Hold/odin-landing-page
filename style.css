@@ -9,7 +9,13 @@
     border: red solid 1px;
 }
 
+/* Custom variable for the Roboto font */
+:root {
+    --system-ui: system-ui, -apple-system, Roboto;
+}
+
 body {
     display: flex;
     flex-flow: column nowrap;
+    font-family: var(--system-ui);
 }
