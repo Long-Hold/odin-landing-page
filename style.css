@@ -6,7 +6,7 @@
     box-sizing: border-box;
 
     /* debuggin */
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 /* Custom variable for the Roboto font */
@@ -19,3 +19,32 @@ body {
     flex-flow: column nowrap;
     font-family: var(--system-ui);
 }
+
+/* SHARED STYLES SECTION */
+
+/* Set all parent containers to flex box */
+.header-hero-container,
+.image-info-container,
+.quote-section-container,
+.action-container,
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button,
+.action-container {
+    background-color: #3882F6;
+}
+
+button {
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
+/* Header & Hero styles */
