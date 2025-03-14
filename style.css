@@ -58,6 +58,7 @@ button {
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 a {
@@ -82,6 +83,7 @@ header .header-links,
 /* Header stylization */
 .header-hero-container {
     width: 100vw;
+    align-items: center;
 }
 
 .header-hero-container header .header-logo{
@@ -90,5 +92,15 @@ header .header-links,
 
 header {
     width: 100vw;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.header-links ul {
+    gap: 1rem;
+}
+
+.header-links a,
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
