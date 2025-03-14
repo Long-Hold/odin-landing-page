@@ -16,8 +16,11 @@
 
 body {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: var(--system-ui);
+    height: 100vh;
+    width: 100vw;
 }
 
 /* SHARED STYLES SECTION */
@@ -34,6 +37,11 @@ footer {
     align-items: center;
 }
 
+.header-hero-container,
+footer {
+    background-color: #1F2937;
+}
+
 button,
 .action-container {
     background-color: #3882F6;
@@ -47,4 +55,40 @@ button {
     border: none;
 }
 
-/* Header & Hero styles */
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* Header - hero container, and subcontainer styles */
+.header-hero-container,
+header,
+header .header-logo,
+header .header-links,
+.hero,
+.hero .hero-text,
+.hero .image-container
+ {
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Header stylization */
+.header-hero-container {
+    width: 100vw;
+}
+
+.header-hero-container header .header-logo{
+    font-size: 24px;
+}
+
+header {
+    width: 100vw;
+    justify-content: space-between;
+}
