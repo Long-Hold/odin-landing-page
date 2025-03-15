@@ -174,3 +174,24 @@ header {
     max-width: 150px;
     text-align: center;
 }
+
+/* quote-section css */
+.quote-section-container {
+    padding: 10% 22%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #E5E7EB;
+}
+
+.quote-section-container blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-section-container blockquote cite {
+    display: flex;
+    font-style: normal;
+    justify-content: flex-end;
+}
