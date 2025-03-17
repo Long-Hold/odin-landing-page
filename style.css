@@ -19,8 +19,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: var(--system-ui);
-    height: 100vh;
-    max-width: 100wh;
+    /* height: 100vh; */
+    /* max-width: 100wh; */
 }
 
 /* SHARED STYLES SECTION */
@@ -35,7 +35,7 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     padding: 0 10% 10%;
 }
 
@@ -194,4 +194,11 @@ header {
     display: flex;
     font-style: normal;
     justify-content: flex-end;
+}
+
+/* action container styles */
+.action-container {
+    flex-flow: row wrap;
+    max-width: 100%;
+    margin: 4rem;
 }
