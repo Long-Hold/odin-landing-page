@@ -198,7 +198,16 @@ header {
 
 /* action container styles */
 .action-container {
-    flex-flow: row wrap;
-    max-width: 100%;
-    margin: 4rem;
+    justify-content: space-between;
+    margin: 6rem 8rem;
+    padding: 3rem 8rem;
+    border-radius: 0.5rem;
+}
+
+.action-container .signup-quote {
+    color: white;
+}
+
+.action-container button {
+    border: white solid 2px;
 }
