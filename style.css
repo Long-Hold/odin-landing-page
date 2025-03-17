@@ -211,3 +211,9 @@ header {
 .action-container button {
     border: white solid 2px;
 }
+
+/* Footer styling */
+footer {
+    padding: 2.5rem;
+    color: white;
+}
