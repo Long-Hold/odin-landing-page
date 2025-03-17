@@ -78,7 +78,7 @@ header .header-links,
 
 /* Header stylization */
 .header-hero-container {
-    width: 100vw;
+    width: 100%;
     align-items: center;
     flex-flow: row wrap;
 }
